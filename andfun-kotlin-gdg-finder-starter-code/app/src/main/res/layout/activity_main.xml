@@ -12,6 +12,8 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+<!--            You need the theme and background color here to change the color of the toolbar-->
+
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
