@@ -7,8 +7,20 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
 
+<!--        the name has to be the same word as the xml attribute -->
         <item name="android:fontFamily">@font/lobster_two</item>
         <item name="fontFamily">@font/lobster_two</item>
+    </style>
+    
+    <style name="TextAppearance.Title" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#555555</item>
+    </style>
+
+<!--    The parent is the title style above because we want to extend from that parent.
+        Therefore Subtitle will have a textSize of 18sp and a textColor of #555555-->
+    <style name="TextAppearance.Subtitle" parent="TextAppearance.Title" >
+        <item name="android:textSize">18sp</item>
     </style>
 
 </resources>
